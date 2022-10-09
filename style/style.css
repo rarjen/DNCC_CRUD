@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 10px;
+    background-image: linear-gradient(to right, blue, purple);
+    color: white;
+    box-shadow: 0 5px 9px rgba(58, 59, 65, 0.05), 0 15px 40px rgba(39, 46, 73, 0.2);
+    ;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper .container {
+    width: 1024px;
+    border-radius: 8px;
+    margin: 16px;
+    background: #F8F9FA;
+    padding: 16px;
+    flex-grow: 1;
+    height: fit-content;
+}
+
+
+.item {
+    margin-top: 20px;
+    border-radius: 9px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    border-radius: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+input[type=text],
+input[type=date] {
+    font-family: Raleway, sans-serif;
+    background: #F5F1FF;
+    border: 2px solid rgb(17, 76, 238);
+    border-radius: 25px;
+    padding: 16px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.submit-btn {
+    margin-top: 14px;
+    align-self: flex-end;
+    width: fit-content;
+    font-size: 26px;
+    background-color: rgb(17, 76, 238);
+    color: #F5F1FF;
+    border-radius: 14px;
+    padding: 12px;
+}
+
+.submit-btn:hover {
+    background-color: #F5F1FF;
+    border-color: rgb(17, 76, 238);
+    color: rgb(17, 76, 238);
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+th {
+    padding: 5px;
+    background-color: rgb(17, 76, 238);
+    color: #F5F1FF;
+}
+
+td {
+    padding: 6px;
+    margin: 5px;
+}
+
+.number {
+    width: 30px;
+}
+
+.action {
+    width: 180px;
+}
+
+.edit-btn {
+    padding: 7px;
+    width: 80px;
+    background-color: green;
+    color: #F5F1FF;
+    border-radius: 8px;
+    font-weight: bold;
+    border-color: green;
+}
+
+.delete-btn {
+    padding: 7px;
+    width: 80px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    border-color: red;
+}
+
+.edit-btn:hover {
+    background-color: white;
+    color: green;
+}
+
+.delete-btn:hover {
+    background-color: white;
+    color: red;
+}
+
+.shadow {
+    box-shadow: 0 5px 10px rgba(58, 59, 65, 0.05), 0 15px 40px rgba(39, 46, 73, 0.2);
+}
